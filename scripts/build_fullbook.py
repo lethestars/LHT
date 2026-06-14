@@ -30,9 +30,14 @@ def discover_chapters() -> list[tuple[int, str]]:
     return [(n, found[n]) for n in sorted(found)]
 
 
-def load(path: str) -> str:
+def load_chapter(n: int, path: str) -> str:
+    """从文件名注入统一章标题，并剔除正文内旧式标题行。"""
     with open(path, encoding="utf-8") as f:
-        return f.read().strip()
+        body = f.read().strip()
+    m = CHAPTER_RE.match(os.path.basename(path))
+    subtitle = m.group(2) if m else ""
+    body = re.sub(r"^#\s*第\d+章[：·][^\n]+\n+", "", body, count=1)
+    return f"# 第{n}章·{subtitle}\n\n{body}"
 
 
 def build_epub(md_path: str, epub_path: str) -> None:
@@ -61,13 +66,14 @@ def main() -> int:
         return 1
 
     for n, path in chapters:
-        parts.append(load(path))
+        parts.append(load_chapter(n, path))
         print(f"  + 第{n}章 ({os.path.basename(path)})")
 
     for name in EXTRAS:
         path = os.path.join(BASE, name)
         if os.path.isfile(path):
-            parts.append(load(path))
+            with open(path, encoding="utf-8") as f:
+                parts.append(f.read().strip())
             print(f"  + {name}")
 
     full = "\n\n".join(parts) + "\n"
