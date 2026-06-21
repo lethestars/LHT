@@ -43,6 +43,7 @@ NOVEL_TITLES: dict[int, str] = {
     31: "海滩潮信顾骁阳来",
     32: "空降阳明弟控线起",
     33: "铁骑夜巡副队同床",
+    34: "送别夜火车严立锋",
 }
 
 CHAPTER_FILE_RE = re.compile(r"^第(\d+)章(?:·(.+))?\.md$")
