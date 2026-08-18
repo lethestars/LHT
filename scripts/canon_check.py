@@ -63,11 +63,13 @@ def main() -> int:
         print("WARN: 缺少 canon-registry.md")
 
     chars = read(CHARS)
-    if "15人平等主角团" not in chars and "15人" not in chars:
+    if "17人平等主角团" not in chars and "17人" not in chars:
         print("WARN: 人物设定.md 主角团人数描述可能过时")
 
-    if "截至第29章" in chars or "截至第26章" in chars:
-        print("WARN: 人物设定 关系索引「截至第N章」可能未更新到最新正文")
+    if "截至第39章" in chars or "截至第29章" in chars or "截至第26章" in chars:
+        # 允许关系索引局部仍写「截至第N章」指该角色最后对戏章；仅提示极旧锚点
+        if "截至第29章" in chars or "截至第26章" in chars:
+            print("WARN: 人物设定 关系索引「截至第N章」可能未更新到最新正文")
 
     print("OK: 基础校验完成（详见 WARN）")
     return 0
