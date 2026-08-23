@@ -1,2 +1,4 @@
 # 本地 pandoc 便携版（见 README 或下方说明）
 .tools/
+.DS_Store
+
