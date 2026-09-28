@@ -1,0 +1,5 @@
+{
+  "name": "yangming-part3-novel",
+  "install": "sudo apt-get update -qq && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq pandoc python3 && python3 scripts/canon_check.py",
+  "terminals": []
+}
