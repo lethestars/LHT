@@ -1,0 +1,56 @@
+# 军营铁床 · 按用户 lineart
+# 赵背心：不要用 backless tank styling（Pony不认）。线稿须擦掉胸前布料线，只留肩带+后颈一团。
+# 赵在后握胯坏笑；导员趴床回望高潮；左上解剖气泡展示鸡巴插在穴里内射
+# lineart 已是白线黑底 → ControlNet canny · preprocessor none · weight 0.50–0.58
+# Empty latent 832×1216 · CFG 6.5–7 · denoise 1.0 · batch 1
+# LoRA doggystyle 0.7–0.85 · 正向禁止 not xxx · 禁止 firehose
+
+## Positive
+
+score_9, score_8_up, score_7_up, source_pony, rating_explicit, bara, muscular male, huge pecs,
+doggystyle, from behind, sex, anal, penis, male focus, gay,
+creampie, anal creampie, internal cumshot, cum inside,
+x-ray, anatomical inset, thought bubble, cross section of penetration,
+handsome East Asian man, late 30s,
+light wheat skin, short choppy black hair,
+light stubble, short trimmed goatee, small chin beard, soul patch on chin,
+light jawline beard, short sideburns connected to the chin,
+slight rogue smirk, cocky closed-mouth grin,
+sly smirk, wicked closed-mouth grin, lopsided smirk, one corner of the mouth raised, lips closed, narrowed eyes, teasing smirk,
+the man behind is the top, kneeling behind him, hyper muscular, huge pecs, abs,
+shirt lift, clothes lift, tank top pulled up, camo tank around the neck, fabric bunched behind the neck, straps still on the shoulders, bare pecs, huge pecs, abs, nipples, dog tags on bare chest,
+two small metal dog tags on a thin ball chain on his chest, military dog tags, thin ball chain,
+camouflage military trousers, camo cargo pants, woodland camo, waistband open, fly open, cock out,
+both hands gripping the bottom man's hips, thick fingers digging into hip flesh,
+huge cock buried deep in the ass, thick shaft stretching the hole,
+cumming hard inside, pumping cum into the asshole,
+thick viscous white cum overflowing around the cock, milky white creampie leak,
+heavy creamy semen dripping from the stretched hole down the balls and thighs,
+opaque milky white cum, sticky cum strings, glossy cum highlights,
+in the upper left, a round thought bubble x-ray inset, anatomical cross section,
+showing the huge cock deep inside the rectum, cum filling the guts, milky white semen inside,
+the man in front is the bottom, adult East Asian man, late 30s, mature masculine face, short black hair, light stubble,
+military instructor, olive green military uniform shirt still on, sleeves rolled up, collar open,
+olive green military trousers pulled down to the thighs, bare ass, bare hips,
+lying prone on a metal bunk bed, chest down, hips raised, doggystyle on the bed,
+looking back over his shoulder toward the viewer, orgasm face, climax face,
+eyes half-closed, mouth wide open, panting, gasping for air, heavy breathing, flushed cheeks, sweat drops, trembling,
+inside military instructor dormitory, army officer barracks room, drab olive walls,
+metal bunk bed, iron bed frame, thin mattress, army blanket,
+metal lockers, footlocker, wooden desk, folding chair, wall map,
+dim warm room light, low light, deep shadows, moody lighting,
+
+## Negative
+
+western male, blonde, clean shaven, no goatee, no facial hair, thick full beard, long beard, bushy beard, thick mustache, long hair, teenager, 20s, different face, angry, scowling, looking up, open mouth,
+bedroom, sofa, home interior, hotel, white sheets, floral bedding, wooden headboard,
+prison cell, dungeon, stone walls, iron bars, jail, torch, cave, tent canvas only,
+missionary, cowgirl, standing sex, sitting sex,
+latex, rubber, furry, mask,
+tank top covering the chest, camo print on pecs, fabric on pecs, shirt covering pecs, fully wearing tank, fully clothed top, pants fully on the bottom, underwear on the bottom,
+open mouth on the top, teeth on the top, toothy grin, wide smile,
+tongue out, ahegao tongue, drooling,
+thin cum, watery cum, transparent cum, clear slime, black cum, gray cum, cum from mouth, oral creampie,
+extra arms, extra cocks, extra balls, extra heads,
+hose, tube, pipe, tentacle, firehose,
+english text, watermark, camera, lens, screen, REC

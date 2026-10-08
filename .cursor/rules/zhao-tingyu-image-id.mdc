@@ -1,0 +1,20 @@
+---
+description: 赵霆宇出图身份块固化（Comfy/Pony），写提示词必须套用
+alwaysApply: true
+---
+
+# 赵霆宇 · 出图身份（固化）
+
+写任何赵霆宇相关正向提示词时，**用下面整块，不要改写、不要拆开、不要换成 `handsome asian male`**。
+
+```text
+handsome East Asian man, late 30s,
+light wheat skin, short choppy black hair,
+light stubble, short trimmed goatee, small chin beard, soul patch on chin,
+light jawline beard, short sideburns connected to the chin,
+slight rogue smirk, cocky closed-mouth grin
+```
+
+负面至少带：`western male, blonde, clean shaven, no goatee, no facial hair, thick full beard, long beard, bushy beard, thick mustache, long hair, teenager, 20s, different face, angry, scowling, looking up, open mouth`
+
+场景、服装、体位可以变；身份块保持原句。
