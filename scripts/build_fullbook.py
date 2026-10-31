@@ -12,7 +12,11 @@ CHAPTER_RE = re.compile(r"^第(\d+)章·(.+)\.md$")
 OUT_MD = os.path.join(BASE, "阳明宇宙·第三部·全本整合.md")
 OUT_TXT = os.path.join(BASE, "阳明宇宙·第三部·全本整合.txt")
 OUT_EPUB = os.path.join(BASE, "阳明宇宙·第三部·全本整合.epub")
-EXTRAS = ["番外1：赵霆宇·角色扮演.md", "番外2：阿杰·篮球场.md"]
+EXTRAS = [
+    "番外1：赵霆宇·角色扮演.md",
+    "番外2：阿杰·篮球场.md",
+    "番外3：赵霆宇·深山匪窝的狂暴收服.md",
+]
 
 
 def discover_chapters() -> list[tuple[int, str]]:
